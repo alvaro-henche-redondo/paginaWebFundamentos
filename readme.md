@@ -34,7 +34,7 @@ Raíz del proyecto:
 ## Ver el proyecto 
 
 Haga click en el siguente enlace para ver el proyecto desplegado en GitHub Pages:
-[Ver página web](https://alvarohr.github.io/paginaWebFundamentos/)
+[Ver página web](https://alvaro-henche-redondo.github.io/paginaWebFundamentos/)
 
 ## Despliegue en GitHub Pages
 
