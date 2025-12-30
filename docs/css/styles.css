@@ -170,6 +170,7 @@ textarea{min-height:120px}
 	overflow:hidden;
 	background:#f9fafb;
 	border-bottom:1px solid rgba(15,23,36,0.04);
+	position:relative;
 }
 .preview-frame .network-preview{
 	border:none;
@@ -178,6 +179,14 @@ textarea{min-height:120px}
 	height:calc(200px / var(--preview-scale));
 	transform:scale(var(--preview-scale));
 	transform-origin:0 0;
+}
+.preview-frame .preview-overlay{
+	position:absolute;
+	inset:0;
+	z-index:5;
+	background:transparent;
+	cursor:default;
+	/* capture clicks to prevent interacting with iframe */
 }
 .network-info{
 	padding:1rem;
